@@ -1,0 +1,49 @@
+Package: plotly
+Title: Create interactive web-based graphs via plotly's API
+Version: 2.0.0
+Authors@R: c(person("Carson", "Sievert", role = c("aut", "cre"),
+    email = "cpsievert1@gmail.com"),
+    person("Chris", "Parmer", role = c("aut", "cph"),
+    email = "chris@plot.ly"),
+    person("Toby", "Hocking", role = "aut",
+    email = "tdhock5@gmail.com"),
+    person("Scott", "Chamberlain", role = "aut",
+    email = "myrmecocystus@gmail.com"),
+    person("Karthik", "Ram", role = "aut",
+    email = "karthik.ram@gmail.com"),
+    person("Marianne", "Corvellec", role = "aut",
+    email = "marianne@plot.ly"),
+    person("Pedro", "Despouy", role = "aut",
+    email = "pedro@plot.ly"))
+License: MIT + file LICENSE
+Description: Create interactive web-based graphs via plotly's API.
+    Easily translate ggplot2 plots to plotly and/or create custom plotly graphs.
+    Once uploaded to a plotly account, plotly graphs (and the data behind them)
+    can be viewed and modified in a web browser.
+URL: https://github.com/ropensci/plotly
+BugReports: https://github.com/ropensci/plotly/issues
+Depends: ggplot2
+Imports: scales, httr, jsonlite, magrittr, digest, viridis, base64enc,
+        htmlwidgets, plyr
+Suggests: dplyr, maps, testthat, knitr, devtools, shiny, htmltools,
+        curl, rmarkdown, RColorBrewer, Rserve, RSclient, broom
+LazyData: true
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: plotly
+RemoteUsername: ropensci
+RemoteRef: master
+RemoteSha: 6ef5f4baf11052ca15307a7af7542d764e226f4c
+GithubRepo: plotly
+GithubUsername: ropensci
+GithubRef: master
+GithubSHA1: 6ef5f4baf11052ca15307a7af7542d764e226f4c
+Author: Carson Sievert [aut, cre],
+  Chris Parmer [aut, cph],
+  Toby Hocking [aut],
+  Scott Chamberlain [aut],
+  Karthik Ram [aut],
+  Marianne Corvellec [aut],
+  Pedro Despouy [aut]
+Maintainer: Carson Sievert <cpsievert1@gmail.com>
+Built: R 3.2.2; ; 2015-11-09 19:10:04 UTC; windows
